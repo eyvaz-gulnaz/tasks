@@ -1,18 +1,19 @@
-interface Customer {
-    readonly id: number,
-    name: string,
-    email: string,
-    location: {
-        city: string, 
-        country: string
+interface Location: {
+        city: string; 
+        country: string;
     }
+interface Customer {
+    readonly id: number;
+    name: string;
+    email: string;
+    location : Location;
 }
 interface Order {
-    orderId: number,
-    customerId: number,
-    product: string,
-    quantity: number,
-    price: number
+    orderId: number;
+    customerId: number;
+    product: string;
+    quantity: number;
+    price: number;
 }
 
 
