@@ -1,5 +1,5 @@
 interface Customer {
-    id: number,
+    readonly id: number,
     name: string,
     email: string,
     location: {
