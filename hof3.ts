@@ -3,7 +3,8 @@ interface Customer {
     name: string,
     email: string,
     location: {
-        city: string, country: string
+        city: string, 
+        country: string
     }
 }
 interface Order {
