@@ -1,4 +1,5 @@
-const text = "The rain in Spain stays mainly in the plain. In Spain, in April, the rain is a pain.";
+const text: string = "The rain in Spain stays mainly in the plain. In Spain, in April, the rain is a pain.";
+// Burda textin typeni yazmasaq da olar initial value verilib deye ts ozu mueyyen edir string oldugunu .her ehtimal typeni qeyd etdim 
 
 // Task1
 let newWord: string[] | null = text.match(/Spain/g)
