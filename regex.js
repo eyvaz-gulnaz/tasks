@@ -1,8 +1,7 @@
 const text = "The rain in Spain stays mainly in the plain. In Spain, in April, the rain is a pain.";
 
-Task1
-regex1  = /Spain/g
-let newWord = text.match(regex1)
+//Task1
+let newWord = text.match(/Spain/g)
 console.log(newWord);
 
 // Task 2
@@ -15,7 +14,7 @@ let newText = text.replace(/Spain/, "France")
 console.log(newText); 
 
 // Taks4
-let changedText = text.replaceAll(/rain/g, "sun")
+let changedText = text.replaceAll(regex2, "sun")
 console.log(changedText);
 
 // Task 5
