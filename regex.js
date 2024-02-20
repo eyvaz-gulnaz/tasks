@@ -5,7 +5,7 @@ let newWord = text.match(/Spain/g)
 console.log(newWord);
 
 // Task 2
-regex2 = /rain/g
+let regex2 = /rain/g
 let matched = [...text.matchAll(regex2)]
 let result = matched.forEach(match=> console.log(`${match} at the position: ${match.index}`))
 
